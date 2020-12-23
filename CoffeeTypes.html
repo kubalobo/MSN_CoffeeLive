@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-light">
         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,14 +43,69 @@
     </nav>
 
     <main>
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+
+        <div class="card">
+            <a data-toggle="modal" data-target="#exampleModal">
+                <img src="./coffee1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="card">
+            <a data-toggle="modal" data-target="#descriptionModal2">
+                <img src="./coffee1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </a>
+        </div>
+        <div class="card">
+            <img src="./coffee1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
             </div>
-          </div>
-          
+        </div>
+
     </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <p class="description-text">
+                        Some quick text about history of this coffee.
+                    </p>
+                    <img src="./coffee_sketch.jpg" class="description-image" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="descriptionModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <p class="description-text">
+                        Some quick text about history of this coffee. 2 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                        !!!!!!!!!!!!!!!!!!!!!
+                    </p>
+                    <img src="./coffee_sketch.jpg" class="description-image" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
