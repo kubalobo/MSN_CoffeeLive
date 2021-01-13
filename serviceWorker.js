@@ -1,11 +1,11 @@
 var CACHE_NAME = 'coffee-type';
 var urlsToCache = [
-  '/',
-  '/style.css',
-  '/index.html',
-  '/CoffeeTypes.html',
-  '/coffee1.jpg',
-  '/coffee_sketch.jpg'
+  './',
+  './style.css',
+  './index.html',
+  './CoffeeTypes.html',
+  './coffee1.jpg',
+  './coffee_sketch.jpg'
 ];
 
 
