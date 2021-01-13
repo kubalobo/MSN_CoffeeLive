@@ -3,7 +3,7 @@
     "name": "CoffeeTest",
     "lang": "en",
     "description": "Description of application",
-    "start_url": "/",
+    "start_url": "https://kubalobo.github.io/MSN_CoffeeLive/",
     "background_color": "#ffffff",
     "theme_color": "#7d572a",
     "dir": "ltr",
